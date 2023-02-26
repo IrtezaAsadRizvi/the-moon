@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moon | Irteza Asad</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="webgl" id="webgl"></canvas>
+    <div class="content">
+        <div class="content-wrapper" style="position: relative;">
+            <h1 id="title">
+                The Moon
+            </h1>
+    
+            <div class="text-holder">
+                <p id="text">
+                    The Moon is Earth's only natural satellite. It is the fifth largest satellite in the Solar System and the largest and most massive relative to its parent planet, with a diameter about one-quarter that of Earth
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="space">
+        <div class='stars'></div>
+        <div class='twinkling'></div>
+    </div>
+
+    <div class="scroll-indicator" id="ScrollIndicator">
+        <div class="dots"></div>
+    </div>
+
+    <div class="loader" id="loader">
+        <span class="loading">Loading</span>
+    </div>
+
+    <div class="mail">
+        <a href="mailto:irtezaasad@gmail.com"><img src="./assets/envelope.png" alt="Mail" height="24" width="24"></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
